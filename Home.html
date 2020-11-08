@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Electricity Bill </title>
+		
+	</head>
+<body bgcolor="black" style="color:black">
+	<script src="BilCal.js">
+	</script>
+	
+	
+<center>
+	<table border="4" style="background-color:yellow;border-color:red">
+	<tr><td>
+	<table>
+		<tr>
+			<th colspan="4">Electricity Bill</th>
+		</tr>
+		<tr>
+			<td>Bill No:</td>
+			<td><input type="number" id="BillNo">	</td>
+			
+			
+		</tr>
+		<tr>
+			<td>Date:	</td>
+			<td>From:</td>
+			<td><input type="Date" id="Date_F">		</td>
+			
+		</tr>
+		<tr>
+			<td></td>
+			<td>To: </td>
+			<td><input type="Date" id="Date_T">		</td>
+			
+		</tr>
+		<tr>
+			<td>No of Used Units:	</td>
+			<td><input type="number" id="Used_Units">	</td>
+			
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="reset" name="clear" value="Clear" onclick="Clear_Form()"></button>
+		      </td>
+			
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="button" onclick="BilCal()" value="Calculate_Bill" ></td>
+			
+			
+		</tr>
+		
+		
+		</form>
+		</table>
+	</td></tr>
+	</table>
+</center>
+</body>
+</html> 
