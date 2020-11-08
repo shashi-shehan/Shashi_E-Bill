@@ -1,3 +1,3 @@
 <?php
-	include_once "Elecricity Bill (1).html"
+	include_once "Home.html"
 ?>
